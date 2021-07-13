@@ -9,14 +9,18 @@
   </head>
   <body>
     <h1>Guess The Number (1 - 100)</h1>
+
     <div class="check">
-      
-      <input type="number" name="number" id="number">
-      <button type="button" id="check-button">CHECK</button>
+      <input type="number" name="number" id="number" />
+      <button type="button" id="check-button" onclick="sayiGir()">CHECK</button>
+      <p class="guessed-numbers">Guessed Numbers:</p>
+      <p class="girilen-sayilar"></p>
+      <p id="result"></p>
+      <p id="remain"></p>
+      <img src="./magic_hat.png" alt="magic-hat" class="image"/>
     </div>
-    <img src="./magic-hat.jpg" alt="magic-hat" />
-    <p id="writed-numbers"></p>
-    <p id="demo"></p>
+    
+    
     <script src="./find_number_game.js"></script>
   </body>
 </html>
