@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(255, 160, 122); */
+    background-image: linear-gradient(to bottom right, rgb(255, 160, 122), rgb(199, 193, 193));
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    padding: 3rem 0;
+}
+.check{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2rem 0;
+}
+#number{
+    border-radius: 5px;
+    width: 15%;
+}
+#check-button{
+    padding: 0 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+}
+img{
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    margin: 2rem 0;
+}
+p{
+    text-align: center;
+    margin: 2rem 0;
+}
